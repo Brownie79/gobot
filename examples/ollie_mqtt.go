@@ -9,10 +9,10 @@ import (
 	"strconv"
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/platforms/ble"
-	"gobot.io/x/gobot/platforms/mqtt"
-	"gobot.io/x/gobot/platforms/sphero/ollie"
+	"github.com/Brownie79/gobot"
+	"github.com/Brownie79/gobot/platforms/ble"
+	"github.com/Brownie79/gobot/platforms/mqtt"
+	"github.com/Brownie79/gobot/platforms/sphero/ollie"
 )
 
 const (

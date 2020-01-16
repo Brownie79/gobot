@@ -24,7 +24,7 @@ Models that will require additional work for compatibility:
 ## How to Install
 
 ```
-go get -d -u gobot.io/x/gobot/...
+go get -d -u github.com/Brownie79/gobot/...
 ```
 
 ## How to Use
@@ -37,9 +37,9 @@ import (
 	"os"
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/platforms/ble"
-	"gobot.io/x/gobot/platforms/parrot/minidrone"
+	"github.com/Brownie79/gobot"
+	"github.com/Brownie79/gobot/platforms/ble"
+	"github.com/Brownie79/gobot/platforms/parrot/minidrone"
 )
 
 func main() {

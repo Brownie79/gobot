@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/drivers/aio"
-	"gobot.io/x/gobot/gobottest"
+	"github.com/Brownie79/gobot"
+	"github.com/Brownie79/gobot/drivers/aio"
+	"github.com/Brownie79/gobot/gobottest"
 )
 
 // the ADS1x15Driver is a Driver

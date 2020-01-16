@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"gobot.io/x/gobot"
+	"github.com/Brownie79/gobot"
 )
 
 const grovePiAddress = 0x04

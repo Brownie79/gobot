@@ -9,9 +9,9 @@ import (
 	"net/http/httptest"
 	"strings"
 
+	"github.com/Brownie79/gobot"
+	"github.com/Brownie79/gobot/api/robeaux"
 	"github.com/bmizerany/pat"
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/api/robeaux"
 )
 
 // API represents an API server

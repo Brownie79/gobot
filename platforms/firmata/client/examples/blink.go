@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/tarm/serial"
-	"gobot.io/x/gobot/platforms/firmata/client"
+	"github.com/Brownie79/gobot/platforms/firmata/client"
 )
 
 func main() {

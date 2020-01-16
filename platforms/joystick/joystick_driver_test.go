@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/veandco/go-sdl2/sdl"
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/gobottest"
+	"github.com/Brownie79/gobot"
+	"github.com/Brownie79/gobot/gobottest"
 )
 
 var _ gobot.Driver = (*Driver)(nil)

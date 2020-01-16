@@ -1,7 +1,7 @@
 package gpio
 
 import (
-	"gobot.io/x/gobot/gobottest"
+	"github.com/Brownie79/gobot/gobottest"
 	"strings"
 	"testing"
 	"time"

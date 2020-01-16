@@ -4,7 +4,7 @@ package audio
 import (
 	"time"
 
-	"gobot.io/x/gobot"
+	"github.com/Brownie79/gobot"
 )
 
 // Driver is gobot software device for audio playback

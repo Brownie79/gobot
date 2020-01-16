@@ -15,10 +15,10 @@ import (
 	"os"
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/api"
-	"gobot.io/x/gobot/drivers/gpio"
-	"gobot.io/x/gobot/platforms/particle"
+	"github.com/Brownie79/gobot"
+	"github.com/Brownie79/gobot/api"
+	"github.com/Brownie79/gobot/drivers/gpio"
+	"github.com/Brownie79/gobot/platforms/particle"
 )
 
 func main() {

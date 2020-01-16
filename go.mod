@@ -1,4 +1,4 @@
-module gobot.io/x/gobot
+module github.com/Brownie79/gobot
 
 go 1.13
 

@@ -1,6 +1,6 @@
 package gpio
 
-import "gobot.io/x/gobot"
+import "github.com/Brownie79/gobot"
 
 // LedDriver represents a digital Led
 type LedDriver struct {

@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/gobottest"
+	"github.com/Brownie79/gobot"
+	"github.com/Brownie79/gobot/gobottest"
 )
 
 var _ gobot.Driver = (*HMC6352Driver)(nil)

@@ -5,7 +5,7 @@ import (
 	"math"
 	"time"
 
-	"gobot.io/x/gobot"
+	"github.com/Brownie79/gobot"
 )
 
 // CCS811DriveMode type

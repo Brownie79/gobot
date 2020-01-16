@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/api"
-	"gobot.io/x/gobot/platforms/sphero"
+	"github.com/Brownie79/gobot"
+	"github.com/Brownie79/gobot/api"
+	"github.com/Brownie79/gobot/platforms/sphero"
 )
 
 func NewSwarmBot(port string) *gobot.Robot {

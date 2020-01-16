@@ -20,9 +20,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/platforms/dji/tello"
-	"gobot.io/x/gobot/platforms/joystick"
+	"github.com/Brownie79/gobot"
+	"github.com/Brownie79/gobot/platforms/dji/tello"
+	"github.com/Brownie79/gobot/platforms/joystick"
 )
 
 type pair struct {

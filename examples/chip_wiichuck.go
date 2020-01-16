@@ -7,9 +7,9 @@ package main
 import (
 	"fmt"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/drivers/i2c"
-	"gobot.io/x/gobot/platforms/chip"
+	"github.com/Brownie79/gobot"
+	"github.com/Brownie79/gobot/drivers/i2c"
+	"github.com/Brownie79/gobot/platforms/chip"
 )
 
 func main() {

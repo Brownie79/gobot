@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/sysfs"
+	"github.com/Brownie79/gobot"
+	"github.com/Brownie79/gobot/sysfs"
 )
 
 // PWMPin is the Raspberry Pi implementation of the PWMPinner interface.

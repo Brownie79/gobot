@@ -6,8 +6,8 @@ import (
 	"syscall"
 	"testing"
 
-	"gobot.io/x/gobot/drivers/i2c"
-	"gobot.io/x/gobot/gobottest"
+	"github.com/Brownie79/gobot/drivers/i2c"
+	"github.com/Brownie79/gobot/gobottest"
 )
 
 func TestNewI2cDeviceClose(t *testing.T) {

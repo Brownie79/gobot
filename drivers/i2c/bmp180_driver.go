@@ -5,7 +5,7 @@ import (
 	"encoding/binary"
 	"time"
 
-	"gobot.io/x/gobot"
+	"github.com/Brownie79/gobot"
 )
 
 const bmp180Address = 0x77

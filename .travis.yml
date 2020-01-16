@@ -1,7 +1,7 @@
 language: go
 sudo: required
 dist: trusty
-go_import_path: gobot.io/x/gobot
+go_import_path: github.com/Brownie79/gobot
 go:
    - 1.11.x
    - 1.12.x
@@ -42,7 +42,7 @@ before_install:
    - export LD_LIBRARY_PATH=$HOME/usr/lib:${LD_LIBRARY_PATH}
    - export GO111MODULE=on
    - sudo ln /dev/null /dev/raw1394
-   - cd $HOME/gopath/src/gobot.io/x/gobot
+   - cd $HOME/gopath/src/github.com/Brownie79/gobot
    - go get github.com/axw/gocov/gocov
    - go get -u github.com/stretchr/testify
 before_cache:

@@ -6,8 +6,8 @@ import (
 	"image"
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/drivers/gpio"
+	"github.com/Brownie79/gobot"
+	"github.com/Brownie79/gobot/drivers/gpio"
 )
 
 const (

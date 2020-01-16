@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/gobottest"
+	"github.com/Brownie79/gobot"
+	"github.com/Brownie79/gobot/gobottest"
 )
 
 // ensure that MPU6050Driver fulfills Gobot Driver interface

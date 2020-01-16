@@ -7,9 +7,9 @@ package main
 import (
 	"math"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/platforms/leap"
-	"gobot.io/x/gobot/platforms/sphero"
+	"github.com/Brownie79/gobot"
+	"github.com/Brownie79/gobot/platforms/leap"
+	"github.com/Brownie79/gobot/platforms/sphero"
 )
 
 func main() {

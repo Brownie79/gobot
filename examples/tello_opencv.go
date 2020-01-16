@@ -20,8 +20,8 @@ import (
 	"strconv"
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/platforms/dji/tello"
+	"github.com/Brownie79/gobot"
+	"github.com/Brownie79/gobot/platforms/dji/tello"
 	"gocv.io/x/gocv"
 )
 

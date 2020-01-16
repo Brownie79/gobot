@@ -7,9 +7,9 @@ package main
 import (
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/drivers/gpio"
-	"gobot.io/x/gobot/platforms/firmata"
+	"github.com/Brownie79/gobot"
+	"github.com/Brownie79/gobot/drivers/gpio"
+	"github.com/Brownie79/gobot/platforms/firmata"
 )
 
 func main() {

@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"time"
 
-	"gobot.io/x/gobot"
+	"github.com/Brownie79/gobot"
 )
 
 // EasyDriver object

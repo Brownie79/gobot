@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/veandco/go-sdl2/sdl"
-	"gobot.io/x/gobot"
+	"github.com/Brownie79/gobot"
 )
 
 const (
@@ -78,6 +78,13 @@ func NewDriver(a *Adaptor, config string, v ...time.Duration) *Driver {
 		},
 		interval: 10 * time.Millisecond,
 		halt:     make(chan bool, 0),
+	}
+
+	// hat is a JSON representation of hat, name and id
+	type hat struct {
+		Hat  int    `json:"hat"`
+		Name string `json:"name"`
+		ID   int    `json:"id"`
 	}
 
 	if len(v) > 0 {

@@ -9,8 +9,8 @@ import (
 	"syscall"
 	"unsafe"
 
-	"gobot.io/x/gobot/gobottest"
-	"gobot.io/x/gobot/sysfs"
+	"github.com/Brownie79/gobot/gobottest"
+	"github.com/Brownie79/gobot/sysfs"
 )
 
 func syscallImpl(trap, a1, a2, a3 uintptr) (r1, r2 uintptr, err syscall.Errno) {

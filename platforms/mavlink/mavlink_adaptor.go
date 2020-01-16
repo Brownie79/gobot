@@ -4,8 +4,8 @@ import (
 	"io"
 
 	serial "go.bug.st/serial.v1"
-	"gobot.io/x/gobot"
-	common "gobot.io/x/gobot/platforms/mavlink/common"
+	"github.com/Brownie79/gobot"
+	common "github.com/Brownie79/gobot/platforms/mavlink/common"
 )
 
 // Adaptor is a Mavlink transport adaptor.

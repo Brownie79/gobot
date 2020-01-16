@@ -14,7 +14,7 @@ We recommend updating to the latest Debian OS when using the C.H.I.P., however G
 You would normally install Go and Gobot on your workstation. Once installed, cross compile your program on your workstation, transfer the final executable to your C.H.I.P and run the program on the C.H.I.P. itself as documented here.
 
 ```
-go get -d -u gobot.io/x/gobot/...
+go get -d -u github.com/Brownie79/gobot/...
 ```
 
 ### PWM support
@@ -45,9 +45,9 @@ package main
 import (
     "fmt"
 
-    "gobot.io/x/gobot"
-    "gobot.io/x/gobot/drivers/gpio"
-    "gobot.io/x/gobot/platforms/chip"
+    "github.com/Brownie79/gobot"
+    "github.com/Brownie79/gobot/drivers/gpio"
+    "github.com/Brownie79/gobot/platforms/chip"
 )
 
 func main() {
